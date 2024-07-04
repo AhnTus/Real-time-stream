@@ -1,19 +1,12 @@
-# Realtime Data Streaming With TCP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch | End-to-End Data Engineering Project
-
-## Table of Contents
-- [Introduction](#introduction)
-- [System Architecture](#system-architecture)
-- [What You'll Learn](#what-youll-learn)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Watch the Video Tutorial](#watch-the-video-tutorial)
+# Realtime Data Streaming With TCP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch 
 
 ## Introduction
 
 This project serves as a comprehensive guide to building an end-to-end data engineering pipeline using TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch. It covers each stage from data acquisition, processing, sentiment analysis with ChatGPT, production to kafka topic and connection to elasticsearch.
 
-## System Architecture
-![System_architecture.png](assets%2FSystem_architecture.png)
+## Workflows
+![System_architecture](https://github.com/AhnTus/Real-time-stream/assets/116616796/4e94f2b5-5105-493d-a49e-ff57c2dec5d2)
+
 
 The project is designed with the following components:
 
@@ -42,26 +35,3 @@ The project is designed with the following components:
 - Apache Spark
 - Docker
 - Elasticsearch
-
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/airscholar/E2EDataEngineering.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd E2EDataEngineering
-    ```
-
-3. Run Docker Compose to spin up the spark cluster:
-    ```bash
-    docker-compose up
-    ```
-
-For more detailed instructions, please check out the video tutorial linked below.
-
-## Watch the Video Tutorial
-
-For a complete walkthrough and practical demonstration, check out the video here: [![Realtime Streaming with TCP IP Spark LLM Kafka Elasticsearch.png](assets%2FRealtime%20Streaming%20with%20TCP%20IP%20Spark%20LLM%20Kafka%20Elasticsearch.png)](https://www.youtube.com/watch?v=ETdyFfYZaqU)
